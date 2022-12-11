@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Ayrton-pight' ;
+    src: url(../fonts/ayrton-pight/Ayrton\ Pight.ttf);
+}
+body{
+    background-color: #bbe9db;
+}
+.linkTwo{
+    margin-top: 40px;
+    text-align: center;
+}
+h2 a{
+    text-decoration: none;
+    color: #247291;
+    font-family: 'Ayrton-pight',sans-serif;
+    font-size: 34px;
+    font-weight: 900;
+}

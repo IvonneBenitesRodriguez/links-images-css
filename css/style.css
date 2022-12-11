@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Ayrton-pight';
+    src: url(../fonts/ayrton-pight/Ayrton\ Pight.ttf);
+}
+body{
+    background-color: #bbe9db;
+}
+h1{
+    color: deeppink;
+    font-family: 'Ayrton-pight',sans-serif;
+    font-size: 60px;
+    margin-top: 20px;
+    text-align: center;
+}
+a{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 20px;
+ color: #247291;
+ font-weight: 900;
+ font-family: 'Ayrton-pight';
+ font-size: 28px;
+ text-decoration: none;
+}
+
+img.image-aquarium{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 20px;
+    border: 2px solid white;
+    box-shadow: 0 0 30px #000;
+    margin-bottom: 50px;
+}
